@@ -1,0 +1,107 @@
+* SPICE3 file created from ieee_DAC_ladder.ext - technology: sky130A
+
+.subckt ieee_DAC_ladder Ibias Vg GND Iout D0 D0b D1 D1b D2 D2b D3 D3b D4 D4b D5 D5b
++ D6 D6b
+X0 a_5690_0# GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X1 GND Vg a_8690_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X2 a_1690_n1390# D1b GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X3 a_90_0# Vg a_1490_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X4 a_4290_0# Vg a_5890_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X5 GND D6b a_8690_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X6 a_1490_0# Vg a_90_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X7 Iout D5 a_7290_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X8 GND GND Iout GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X9 a_5890_n1390# D4 Iout GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X10 a_2890_0# GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X11 GND GND Iout GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X12 a_4490_n1390# D3b GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X13 a_1490_0# Vg a_3090_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X14 a_7290_n1390# Vg a_5690_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X15 Iout GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X16 GND D1b a_1690_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X17 a_290_n1390# Vg Ibias GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X18 GND GND a_7090_0# GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X19 a_7290_n1390# D5b GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X20 a_8690_n1390# D6 Iout GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X21 a_8690_0# Vg GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X22 GND GND Iout GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X23 GND GND a_90_0# GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X24 a_4490_n1390# Vg a_2890_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X25 a_8890_0# Vg a_9090_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X26 Iout D0 a_290_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X27 Iout GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X28 GND GND a_4290_0# GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X29 Iout D2 a_3090_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X30 GND D3b a_4490_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X31 GND GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=111 ps=481 w=6 l=0.5
+X32 a_4290_0# Vg a_5690_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X33 a_1690_n1390# D1 Iout GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X34 GND a_9390_n1450# Iout GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X35 a_1690_n1390# Vg a_90_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X36 a_5690_0# Vg a_4290_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X37 GND D5b a_7290_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X38 Iout GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X39 GND GND a_1490_0# GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X40 Iout D4 a_5890_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X41 a_7090_0# GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X42 a_290_n1390# D0b GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X43 a_4490_n1390# D3 Iout GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X44 a_1490_0# Vg a_2890_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X45 a_5690_0# Vg a_7290_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X46 Iout GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X47 a_3090_n1390# D2b GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X48 a_2890_0# Vg a_1490_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X49 GND GND Iout GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X50 Ibias Vg a_290_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X51 a_4290_0# GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X52 Iout GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X53 Iout D6 a_8690_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X54 a_8890_0# Vg a_8690_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X55 a_7290_n1390# D5 Iout GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X56 a_2890_0# Vg a_4490_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X57 a_8690_0# Vg a_8890_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X58 a_5890_n1390# D4b GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X59 GND D0b a_290_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X60 Iout GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X61 GND GND Iout GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X62 a_1490_0# GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X63 GND D2b a_3090_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X64 a_5890_n1390# Vg a_4290_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X65 Iout D1 a_1690_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X66 a_90_0# Vg a_1690_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X67 GND GND a_5690_0# GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X68 a_90_0# GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X69 a_5690_0# Vg a_7090_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X70 a_3090_n1390# Vg a_1490_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X71 a_290_n1390# D0 Iout GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X72 a_8690_n1390# D6b GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X73 Ibias Vg a_90_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X74 GND GND a_2890_0# GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X75 a_7090_0# Vg a_5690_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X76 GND GND GND GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=0 ps=0 w=6 l=0.5
+X77 GND GND Iout GND sky130_fd_pr__nfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X78 a_2890_0# Vg a_4290_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X79 GND D4b a_5890_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X80 Iout GND GND GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X81 a_90_0# Vg Ibias GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X82 Iout D3 a_4490_n1390# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X83 a_4290_0# Vg a_2890_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X84 a_9090_0# Vg a_8890_0# GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X85 a_3090_n1390# D2 Iout GND sky130_fd_pr__nfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+C0 Iout GND 18.0341f
+C1 Vg GND 14.5209f
+C2 a_8690_0# GND 2.20044f
+C3 a_7290_n1390# GND 2.44462f
+C4 a_7090_0# GND 2.52313f
+C5 a_5890_n1390# GND 2.44462f
+C6 a_5690_0# GND 3.89113f
+C7 a_4490_n1390# GND 2.44462f
+C8 a_4290_0# GND 3.89099f
+C9 a_3090_n1390# GND 2.44462f
+C10 a_2890_0# GND 3.89099f
+C11 a_1690_n1390# GND 2.44462f
+C12 a_1490_0# GND 3.89099f
+C13 a_290_n1390# GND 2.44725f
+C14 a_90_0# GND 3.90266f
+.ends
+
